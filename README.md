@@ -1,6 +1,6 @@
 # Customer Shopping Behavior Analysis
 
-An end-to-end data analytics project exploring customer shopping behavior using transactional data, combining **Python (EDA)**, **SQL (PostgreSQL)**, and **Power BI (dashboarding)** to uncover insights into spending patterns, customer segments, and subscription behavior.
+An end-to-end data analytics project exploring customer shopping behavior using transactional data, combining **Python (EDA)**, **SQL (MS SQL Server)**, and **Power BI (dashboarding)** to uncover insights into spending patterns, customer segments, and subscription behavior.
 
 ## Project Overview
 
@@ -20,7 +20,7 @@ This project analyzes **3,900 customer transactions** across multiple product ca
 ## Tech Stack
 
 - **Python** (pandas) — data cleaning, feature engineering, EDA
-- **PostgreSQL** — structured business analysis via SQL
+- **MS SQL Server** — structured business analysis via SQL
 - **Power BI** — interactive dashboard for visual reporting
 
 ## Methodology
@@ -33,7 +33,7 @@ This project analyzes **3,900 customer transactions** across multiple product ca
   - `age_group` — created by binning customer ages
   - `purchase_frequency_days` — derived from purchase frequency data
 - Checked `discount_applied` vs. `promo_code_used` for redundancy and dropped the latter
-- Loaded the cleaned dataset into **PostgreSQL** for downstream SQL analysis
+- Loaded the cleaned dataset into **SQL Server** for downstream SQL analysis
 
 ### 2. Business Analysis (SQL)
 Ten targeted queries were run against the cleaned data to answer key business questions:
